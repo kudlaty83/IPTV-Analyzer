@@ -1,3 +1,4 @@
+Forked from https://github.com/netoptimizer/IPTV-Analyzer
 
 = IPTV-Analyzer =
 
@@ -37,6 +38,11 @@ of the seq_file proc API).
 
 The statistics are collected by a iptv-collector daemon, and stored in
 a MySQL database.
+
+=== Website ===
+My (Marco) main contribution is the website in NodeJS as I couldn't get the 
+original one written in PHP to work. For the graphs I used Plotly (https://plotly.com/javascript/).
+A version of the website can be seen at https://tvprobe.blijdorp.org
 
 == Price ==
 
